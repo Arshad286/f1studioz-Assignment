@@ -1,0 +1,14 @@
+.step-number {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {}
+
+@media screen and (max-width:768px) {
+    .step-number {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}

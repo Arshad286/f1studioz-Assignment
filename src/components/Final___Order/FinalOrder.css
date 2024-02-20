@@ -1,0 +1,184 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container-el {
+    max-width: 60%;
+}
+
+.card-container {
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px -3px grey;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #f2f2f2
+}
+
+.fixed-footer {
+    left: 21.5%;
+    right: 21.5%;
+    height: 80px
+}
+
+.typography {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.discounts {
+    color: green;
+    font-size: 15px;
+}
+
+.input-items-num {
+    width: 40px;
+}
+
+.customize-btn {
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: #651a1a;
+    font-size: 14px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+}
+
+.action-icons {
+    color: #651a1a;
+    margin-right: 5px;
+
+}
+
+.action-texts {
+    color: #651a1a;
+    font-weight: 600;
+
+
+}
+
+.delivery-order-container {
+    background-color: transparent;
+}
+
+.delivery-input {
+    height: "40px";
+    border-radius: "5px";
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+    color: grey;
+}
+
+.price-details {
+    font-size: 20px;
+}
+
+.place-order-btn {
+    background-color: #651a1a;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+}
+
+.add-more-btn {
+    background-color: transparent;
+    border: 2px solid #651a1a;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+
+}
+
+.add-icon {
+    margin-right: 5px;
+    color: #651a1a;
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .action-icons {
+        font-size: 8px;
+    }
+
+    .action-texts {
+        font-weight: 10px;
+
+    }
+
+    .customize-btn {
+        font-size: 10px;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .container-el {
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .price-details {
+        font-size: 14px;
+    }
+
+    .bg-container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .typography {
+        font-size: 14px;
+    }
+
+    .discounts {
+        font-size: 11px;
+    }
+
+    .action-icons {
+        font-size: 6px;
+        margin-right: 2px;
+    }
+
+    .customize-btn {
+        font-size: 10px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .fixed-footer {
+        left: 0;
+        right: 0
+    }
+
+    .place-order-btn {
+        border-radius: 5px;
+        height: 40px;
+        width: 80px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .add-more-btn {
+        border-radius: 5px;
+        height: 40px;
+        width: 80px;
+        font-size: 10px;
+        margin-left: 10px;
+        padding: 0;
+    }
+}

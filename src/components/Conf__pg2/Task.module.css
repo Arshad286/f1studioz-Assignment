@@ -1,0 +1,249 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px grey;
+    margin-bottom: 20px;
+}
+
+.layoutHeading {
+    text-align: "center";
+    padding-top: 10px;
+    padding-left: 8px;
+    background-color: #cccccc;
+    color: #000000;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.layoutOptionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.layoutOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.optionsTitle {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lhsElement {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.optionsSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 400px;
+}
+
+.subOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.packagingEl {
+    display: flex;
+    flex-direction: column;
+}
+
+.additionalEl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.formSelect {
+    outline: none;
+    width: 400px;
+    font-size: 18px;
+}
+
+.formSelectSub {
+    outline: none;
+    width: 100px;
+    font-size: 18px;
+}
+
+.strutsSelect {
+    outline: none;
+    height: 40px;
+    width: auto;
+    font-size: 18px;
+}
+
+.lockEl {
+    margin-left: 5%;
+}
+
+.addToCartBtn {
+    background-color: #651a1a;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.previewBtn {
+    background-color: transparent;
+    border: 2px solid #651a1a;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .mainContainer {
+        width: 90%;
+    }
+
+    .layoutHeading {
+        font-size: 14px;
+    }
+
+    .layoutOptionsContainer {
+        width: 90%;
+    }
+
+    .formSelect {
+        font-size: 16px;
+        width: 320px;
+    }
+
+    .formSelectSub {
+        font-size: 16px;
+        width: 80px;
+    }
+
+    .optionsSubContainer {
+        width: 320px;
+    }
+
+    .lockEl {
+        margin-left: 12%;
+    }
+
+    .strutsSelect {
+        font-size: 12px;
+        height: 34px;
+        width: 90px;
+    }
+
+    .addToCartBtn {
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .previewBtn {
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mainContainer {
+        width: 90%;
+    }
+
+    .layoutHeading {
+        font-size: 14px;
+    }
+
+    .optionsTitle {
+        font-size: 14px;
+    }
+
+    .layoutOptions {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .formSelect {
+        width: 100%;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    .layoutOptionsContainer {
+        width: 90%;
+    }
+
+    .optionsSubContainer {
+        width: 100%;
+    }
+
+    .formSelectSub {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    .additionalEl {
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .strutsSelect {
+        font-size: 14px;
+        height: 34px;
+        width: 60%;
+    }
+
+    .addToCartBtn {
+        height: 35px;
+        width: 90px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .previewBtn {
+        height: 35px;
+        width: 90px;
+        font-size: 12px;
+    }
+}

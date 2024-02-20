@@ -1,0 +1,25 @@
+.fixed-footer {
+    left: 20%;
+    right: 20%;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px -3px grey;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .fixed-footer {
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .fixed-footer {
+        left: 5%;
+        right: 5%;
+    }
+}
